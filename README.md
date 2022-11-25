@@ -55,13 +55,13 @@ flask,httpx
 # Run App
 
 go to text_to_music directory and do below<br>
-run localhost(127.0.0.1) and port 8080<br>
 
 ```bash
 python app.py
 ```
 
-you can port option(-p or -port)
+you can use port option(-p or -port)
+default setting is localhost(127.0.0.1) and port 8080<br>
 
 ```bash
 python app.py -p 8081
