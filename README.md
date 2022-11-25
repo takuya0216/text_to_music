@@ -21,7 +21,7 @@ use git
 ## create conda enviroment
 
 ```conda
-$ conda create --name <env> --fileconda_requirements.txt
+$ conda create --name <env> --file conda_requirements.txt
 ```
 
 ## manual create
