@@ -37,7 +37,7 @@ $ conda activate <env>
 ```
 
 pythorch CUDA<br>
-see you command form https://pytorch.org/get-started/locally/
+see your command form https://pytorch.org/get-started/locally/
 
 ```conda
 $ conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
