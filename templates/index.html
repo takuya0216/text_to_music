@@ -39,15 +39,17 @@
             dataType: 'json',
             data: JSON.stringify(request_data),
             success: function (response) {
+
               let trackurl = response['trackurl'];
               let result_message = response['result_message'];
               //let tags = response['tags'];
               $('#audio_area').text(trackurl)
-              $('#audio_area').attr('href', trackurl);
+              $('#audio_area').attr('href', trackurl)
               $('#result').val(result_message)
-              console.log(trackurl);
-              console.log(result_message);
+              console.log(trackurl)
+              console.log(result_message)
               //console.log(tags);
+              alert('Generated!')
             },
             error: function (response) {
               alert('Send falied', error)
