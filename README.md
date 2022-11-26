@@ -4,10 +4,9 @@ python project for Text to Music with Mubert API
 
 ## Requirements
 
--CUDA GPU<br>
 -Anaconda<br>
 -python 3.10 above<br>
--pytorch GPU version<br>
+-pytorch version<br>
 -sentence-transformers<br>
 -Mubert API<br>
 -others: see conda_requirements.txt<br>
@@ -20,11 +19,14 @@ use git
 
 ## create conda enviroment
 
+maybe an error occurs
+
 ```conda
-$ conda create --name <env> --fileconda_requirements.txt
+$ conda create --name <env> --file conda_requirements.txt
 ```
 
 ## manual create
+step by step install.
 
 conda（python 3.10）
 
@@ -36,14 +38,15 @@ $ conda create --name <env> python=3.10
 $ conda activate <env>
 ```
 
-pythorch CUDA<br>
-see you command form https://pytorch.org/get-started/locally/
+pythorch<br>
+see your command form https://pytorch.org/get-started/locally/
 
 ```conda
 $ conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
 ```
 
 sentence-transformers
+command from https://www.sbert.net/docs/installation.html
 
 ```conda
 conda install -c conda-forge sentence-transformers
@@ -55,19 +58,19 @@ flask,httpx
 # Run App
 
 go to text_to_music directory and do below<br>
-run localhost(127.0.0.1) and port 8080<br>
 
 ```bash
 python app.py
 ```
 
-you can port option(-p or -port)
+you can use port option(-p or -port)
+default setting is port 8080<br>
 
 ```bash
 python app.py -p 8081
 ```
 
-access http://127.0.0.0:8080(default)
+access http://127.0.0.0:8080(default) or http:your_localip:8080
 
 # Generate Music
 
