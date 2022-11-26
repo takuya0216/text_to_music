@@ -19,7 +19,7 @@ use git
 
 ## create conda enviroment
 
-windows only
+maybe an error occurs
 
 ```conda
 $ conda create --name <env> --file conda_requirements.txt
