@@ -26,6 +26,7 @@ $ conda create --name <env> --file conda_requirements.txt
 ```
 
 ## manual create
+step by step insatll.
 
 conda（python 3.10）
 
